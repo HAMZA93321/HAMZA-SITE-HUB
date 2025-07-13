@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COVER</title>
+<!-- <link rel="stylesheet" href="sytyle.css"> -->
+<STYLE>
+  *{
+font-family: sans-serif;
+list-style: none;
+text-decoration: none;
+}
+html,body{
+background-color: #212529;
+-webkit-text-size-adjust: 100%;
+-webkit-tap-highlight-color: transparent;
+}
+
+.header{
+  width: 100%;
+
+}
+.nav{
+display: flex;
+justify-content:space-evenly;
+  }
+
+  /* .nav ul{
+    display: flex;
+    justify-content: space-between;
+  } */
+
+h2{
+color: #fff;
+padding: 0;
+
+}
+
+.nav ul{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* link style start*/
+.link{
+text-decoration: none;
+color:rgba(255, 255, 255, .5);
+font-weight: 300;
+font-size: 18px;
+border-bottom: 4px solid white;
+transition: all linear 0.2s;
+}
+
+#link2{
+  border: transparent;
+}
+.active{
+  color:white ;
+  border-bottom-color: white;
+}
+
+.nav>ul>li>a:hover{
+  border-bottom-color: white;
+  
+}
+#link2:hover{
+  border-bottom: 4px solid rgba(255, 255, 255, .5) ;
+}
+
+.link:hover{
+  border-bottom: 4px solid rgba(255, 255, 255, .5) ;
+}
+/* link style start*/
+
+
+h4{
+  font-weight: 700;
+  font-size: xx-large;
+  color: aliceblue;
+  margin-bottom: 6px;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 160px;
+}
+
+.main p{
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+button{
+  padding: 11px 20px;
+  border-radius: 6px;
+  color:#212529 ;
+  font-size: 20px;
+  font-weight:700;
+}
+
+.footer{
+  text-align: end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  position: relative;
+  bottom: 200px;
+}
+.footer p {
+  color: #fff;
+}
+
+footer a{
+color: #fff !important;
+text-decoration: underline;
+}
+</STYLE>
+</head>
+<body>
+<div class="header">
+  <div class="nav">
+    <div><h2>Cover</h2></div>
+       <div><ul>
+      <li><a href="#" class="link active" >Home</a></li>
+      <li><a href="#" class="link " id="link2" >Features</a></li>
+      <li><a href="#" class="link" id="link2" >Contect</a></li>
+    </ul></div>
+  </div>
+</div>
+<div class="main ">
+
+  <h4>Cover your page.
+</h4>
+<p> Cover is a one-page template for building simple and beautiful home <br> pages. Download, edit the text, and add your own fullscreen <br> background photo to make it your own.</p>
+
+<button>Learn more</button>
+</div>
+
+<footer class=" footer">
+  <p> Cover template for <a href="#" >Bootstrap</a> by <a href="">@mdo</a></p>
+</footer>
+<script src="javascript.js"></script>
+</body>
+</html>
